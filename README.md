@@ -11,7 +11,7 @@ It is a popular approach in deep learning where pre-trained models are used as t
 tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they 
 provide on related problems.
 
-In there are many approaches to apply transfer learning. In my case I used the convolutional and pooling layers in a pre-trained network [Resnet](https://pytorch.org/hub/pytorch_vision_resnet/)
+There are many approaches to apply transfer learning. In my case I used the convolutional and pooling layers in a pre-trained network [Resnet](https://pytorch.org/hub/pytorch_vision_resnet/)
 from list of [Models](https://pytorch.org/docs/stable/torchvision/models.html) as a feature extractor that identifies shape and color based feature in the dataset. Then After the images has passed 
 through this pre-trained feature extractor we can add one or more linear layers at the end which will act as a final classifier.
 
