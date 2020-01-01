@@ -15,5 +15,5 @@ In there are many approaches to apply transfer learning. In my case I used the c
 from list of [Models](https://pytorch.org/docs/stable/torchvision/models.html) as a feature extractor that identifies shape and color based feature in the dataset. Then After the images has passed 
 through this pre-trained feature extractor we can add one or more linear layers at the end which will act as a final classifier.
 
-As seen from the notebook the classifier implemented from scratch have an accuracy of 11% with 20 epoches (full training cycle). But with transfer learning running for 5 epoches, we can get as high as 69% score. 
+As seen from the notebook the classifier implemented from scratch have an accuracy of 11% with 20 epoch (full training cycle). But with transfer learning running for 5 epoch, we can get as high as 69% score. 
 This accuracy can be better and reach upto 90 - 99% if trained for more cycles.
