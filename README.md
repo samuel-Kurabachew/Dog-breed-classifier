@@ -16,4 +16,4 @@ from list of [Models](https://pytorch.org/docs/stable/torchvision/models.html) a
 through this pre-trained feature extractor we can add one or more linear layers at the end which will act as a final classifier.
 
 As seen from the notebook the classifier implemented from scratch have an accuracy of 11% with 20 epoch (full training cycle). But with transfer learning running for 5 epoch, we can get as high as 69% score. 
-This accuracy can be better and reach upto 90 - 99% if trained for more cycles.
+This accuracy can be better and reach upto 90 - 99% if trained with more parameter tuning.
